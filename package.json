@@ -1,7 +1,10 @@
 {
-  "name": "nw-demo",
-  "main": "index.html",
-  "window":{
-     "toolbar":false
-  }
+	"name": "nw-demo",
+	"main": "http://localhost/web/test.html",
+	"window": {
+		"title": "test",
+		"toolbar": true,
+		"frame": true
+	},
+	"node-remote": "http://localhost"
 }
